@@ -1,0 +1,327 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Set the background color for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed; /* Background image with fixed position */
+    background-size: cover; /* Scale the background image to cover the viewport */
+
+
+}
+
+/* Style the header */
+header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+/* Style the logo */
+.logo img {
+    max-width: 75px;
+    height: 75px;
+}
+
+nav li :hover {
+    background-color: white; /* White background color on hover */
+    color: #17191a; /* Gray text color on hover */
+    border-color: #17191a; /* Gray border color on hover */
+    border:60px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    height: 1000px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0); /* Transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1 {
+    font-size: 104px;
+    text-align: center;
+    color: white; /* Text color */
+}
+.gray-container {
+    height: 210px;
+    width: 100%;
+    background-color: #17191a; /* Gray background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0px; 
+}
+
+.gray-container h2 {
+    font-size: 36px;
+    text-align: center;
+    color: white; /* Text color */
+}
+.gray-container p {
+    font-size: 16px;
+    text-align: center;
+    color: white; /* Text color */
+    margin: 0 470px;
+    letter-spacing: 0.5px; /* Letter spacing of 0.5em */
+    line-height: 1.55; 
+}
+
+
+.sub-header {
+    height: 150px;
+    width: 100%;
+    background-color: #17191a; /* Gray background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px; 
+    font-size: 24px;
+    text-align: center;
+    color: white; /* Text color */
+}
+.outer-container {
+    background-color: #17191a; /* Gray background color for outer container */
+}
+
+.category-container a{
+    text-decoration: none;
+    color: #fff;
+}
+.category-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0 auto; /* Center the category container horizontally */
+    max-width: 100%; /* Make sure it spans the full viewport width */
+    margin-left: 370px; /* Add a 370px left margin */
+    margin-right: 370px; /* Add a 370px right margin */
+}
+.category {
+    width: 358px; /* Set the width of the category container */
+    height: 500px; /* Set the height of the category container */
+    background-color: #17191a;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.category a{
+    width: 100%; /* Make the image fill the entire width of the container */
+    height: 100%; /* Make the image fill the entire height of the container */
+    object-fit: cover; /* Ensure the image covers the container without stretching */
+}
+.category img {
+    width: 100%; /* Make the image fill the entire width of the container */
+    height: 100%; /* Make the image fill the entire height of the container */
+    object-fit: cover; /* Ensure the image covers the container without stretching */
+}
+.category h3 {
+    color: #dcdad7;
+    margin: 10px 0;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0 auto; /* Center the category container horizontally */
+    max-width: 100%; /* Make sure it spans the full viewport width */
+    margin-left: 370px; /* Add a 370px left margin */
+    margin-right: 370px; /* Add a 370px right margin */
+}
+.product {
+    width: 260px; /* Set the width of the category container */
+    height: 400px; /* Set the height of the category container */
+    background-color: #17191a;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.product img {
+    width: 100%; /* Make the image fill the entire width of the container */
+    height: 100%; /* Make the image fill the entire height of the container */
+    object-fit: cover; /* Ensure the image covers the container without stretching */
+}
+.product h3 {
+    color: #dcdad7;
+    margin: 10px 0;
+}
+.product .price {
+    font-weight: bold;
+    color: white;
+}
+
+.product button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-middle ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer-middle li {
+    margin-right: 20px;
+}
+
+.footer-middle a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer-right a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Use the bold (700) weight of Roboto */
+}
+.button {
+    display: inline-block;
+    padding: 20px 50px;
+    border: 3px solid white; /* White borders */
+    background-color: #17191a; /* Gray background color */
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white; /* White background color on hover */
+    color: #17191a; /* Gray text color on hover */
+    border-color: #17191a; /* Gray border color on hover */
+}
+
+.image-text-container {
+    height: 550px; /* Set the container height */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+}
+
+.image {
+    flex: 1;
+    max-width: 400px; /* Set the maximum width of the image */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally and vertically */
+    margin-left: 200px;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+.text {
+    flex: 1;
+    max-width: 654px; /* Set the maximum width for the text */
+    height: 434px; /* Set the height for the text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center horizontally and vertically */
+}
+
+.text h3 {
+    font-size: 24px;
+    color: white;
+}
+
+.text p {
+    margin-left: 150px;
+    font-size: 18px;
+    color: white;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
